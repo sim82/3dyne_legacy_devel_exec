@@ -1,4 +1,6 @@
-BUILD_DIR=$1
+BUILD_DIR=`readlink -f $1`
+
+
 
 ln -s $BUILD_DIR/dd dd
 ln -s $BUILD_DIR/dd1_cl/libcl.so dd1/cl.so.linux.i386
