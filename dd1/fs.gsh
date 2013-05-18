@@ -3,9 +3,9 @@
 # this is called by init.gsh
 # addsource $game/file
 ###########################################################################################
-addsource dd1/arch00.dir
+#addsource dd1/arch00.dir
 
-#addsource dd1/arch00.meh
+addsource dd1/arch00.meh
 
 #addsource dd1/arch00.sar
 #echo "adding sources from fs.gsh"
